@@ -1,0 +1,21 @@
+﻿Source.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowSize@8 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutInitDisplayMode@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutMainLoop@0 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutFullScreen@0 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutPostRedisplay@0 referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutSwapBuffers@0 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutWarpPointer@8 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutSetCursor@4 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutTimerFunc@12 referenced in function "void __cdecl timer(int)" (?timer@@YAXH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutKeyboardFunc@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutSpecialFunc@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutReshapeFunc@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutDisplayFunc@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutPassiveMotionFunc@4 referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol __imp__glutGet@4 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutGetModifiers@0 referenced in function "void __cdecl keyboard_callback(unsigned char,int,int)" (?keyboard_callback@@YAXEHH@Z)
+Source.obj : error LNK2019: unresolved external symbol __imp__glutBitmapCharacter@8 referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Source.obj : error LNK2019: unresolved external symbol __imp____glutInitWithExit@12 referenced in function _glutInit_ATEXIT_HACK@8
+Source.obj : error LNK2019: unresolved external symbol __imp____glutCreateWindowWithExit@8 referenced in function _glutCreateWindow_ATEXIT_HACK@4
+C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x86\freeglutd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+E:\AI\the second term\Computer Graphics\3D Solar System\Debug\3D Solar System.exe : fatal error LNK1120: 19 unresolved externals
